@@ -37,7 +37,7 @@
     padding: 26px 221px 44px;
     width: 100%;
     min-height: 870px;
-    background-image: url(/asets/Hero-bg.png);
+    background-image: url(../asets/Hero-bg.png);
     background-size: cover;
 }
  .header-container{

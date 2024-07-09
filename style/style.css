@@ -29,7 +29,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px 21px 16px 21px;
+    padding: 16px 21px;
     font-size: 17px;
     font-weight: 600;
 }
@@ -96,4 +96,98 @@
     font-weight: 600;
     color: white;
     text-decoration: none;
+}
+.motive{
+    width: 1520px;
+    height: 1860px;
+    margin: 99px 203px 143px 200px;
+    padding: 107px 130px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 21px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.motive-title{
+    position: static;
+    width: 1136px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 0px;
+}
+.motive-container{
+    position: static;
+    width: 1260px;
+    height: 1429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.motive-content{
+    position: static;
+    width: 1261px;
+    height: 448px;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    border-radius: 22px;
+}
+.left{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+.right{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.motive-discription{
+    position: static;
+    width: 596px;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.motive-discription>h1{
+    width: 520px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 30px;
+    font-weight: 800;
+}
+.motive-discription>p{
+    color: rgb(13, 19, 33);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.motive-discription>button{
+    position: static;
+    width: 200px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 26px;
+    box-sizing: border-box;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 229px;
+
 }

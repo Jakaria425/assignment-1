@@ -39,6 +39,7 @@
     opacity: .7;
 }
 .nav{
+    width: 1620px;
     margin:  65px 130px;
     display: flex;
     justify-content: space-between;
@@ -255,8 +256,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; 
-    border: 2px solid #0D1321;
-
 }
 .target-current{
     position: static;
@@ -330,6 +329,81 @@
     text-decoration-line: underline;
 }
 
+
+.target-next{
+
+    position: static;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.target_next-container{
+    position: static;
+    width: 1140px;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 24px 0px;
+}
+.box{
+    position: static;
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.target_content{
+    position: static;
+    width: 892.49px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.target_content>h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.target_content>p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.target_content>a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 .support{
     width: 1520px;
     height: 440px;
@@ -337,7 +411,7 @@
     padding: 90px 64px;
     border-radius: 16px;
     background-image: url(../asets/handshake.jpg);
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -346,7 +420,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    border: 2px solid red;
 
 }
 .support>.clr>h1{
@@ -367,32 +440,35 @@
 }
 .suport-suggestion>input{
     position: static;
-    width: 684px;
-    height: 58px;
+    width: 720px;
+    height: 80px;
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0px;
+    font-size: 22px;
+    font-weight: 500;
 }
 .suport-suggestion>button{
     position: static;
-    width: 120px;
-    height: 58px;
+    width: 160px;
+    height: 80px;
     padding: 17px 20px 17px 20px;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 26px;
+    font-weight: 600;
     
 }
 
 #footer{
-    width: 100%;
+    width: 1920px;
     height: 134px;
     display: flex;
     justify-content: center;

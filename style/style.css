@@ -255,6 +255,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; 
+    border: 2px solid #0D1321;
 
 }
 .target-current{
@@ -329,9 +330,68 @@
     text-decoration-line: underline;
 }
 
+.support{
+    width: 1520px;
+    height: 440px;
+    margin: 0px 203px 110px 200px;
+    padding: 90px 64px;
+    border-radius: 16px;
+    background-image: url(../asets/handshake.jpg);
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid red;
+
+}
+.support>.clr>h1{
+    color: rgb(255, 255, 255);
+}
+.support>.clr>p{
+    color: rgb(255, 255, 255);
+    opacity: .7;
+}
+.suport-suggestion{
+    position: static;
+    width: 912px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.suport-suggestion>input{
+    position: static;
+    width: 684px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+.suport-suggestion>button{
+    position: static;
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 #footer{
-    position: absolute;
     width: 100%;
     height: 134px;
     display: flex;
@@ -341,6 +401,7 @@
     padding: 42px 200px;
     border-radius: 21px;
     background: rgba(13, 19, 33, 0.03);
+    
 }
 #footer>h3{
     color: rgb(13, 19, 33);

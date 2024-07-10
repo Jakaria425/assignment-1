@@ -35,7 +35,7 @@
 }
 .header{
     padding: 26px 221px 44px;
-    width: 100%;
+    width: 1920px;
     min-height: 870px;
     background-image: url(../asets/Hero-bg.png);
     background-size: cover;
@@ -193,13 +193,51 @@
 }
 
 
+.inspiration{
+    width: 1520px;
+    height: 1008px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 203px 202px 200px;
+}
+
+.inspiration-description{
+    position: static;
+    width: 1136px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.inspiration>iframe{
+    position: static;
+    width: 1520px;
+    height: 818px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 21px;
+
+    padding: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
 #footer{
-    /* Frame 21 */
     position: absolute;
     width: 100%;
     height: 134px;
     display: flex;
     justify-content: center;
+    align-items: center;
     justify-content: space-between;
     padding: 42px 200px;
     border-radius: 21px;
@@ -211,3 +249,4 @@
     font-weight: 700;
     text-align: center;
 }
+
